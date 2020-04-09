@@ -15,6 +15,46 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline #4d4d4d;
+}
+
+#right-nav .nav-link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.nav-icon:visited,
+.nav-icon:active,
+.nav-icon:hover {
+  text-decoration: none;
+}
+
+.nav-button {
+  margin-right: 25px;
+  margin-left: 15px;
+  color: #fffffd;
+  background-color: #4485f6;
+  border: 0;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 7px 12px 7px 12px;
 }
 
 #footer {
